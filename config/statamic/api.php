@@ -15,13 +15,18 @@ return [
     |
     */
 
-    'enabled' => env('STATAMIC_API_ENABLED', false),
+    'enabled' => true,
 
     'resources' => [
-        'collections' => false,
-        'navs' => false,
-        'taxonomies' => false,
-        'assets' => false,
+        'collections' => [
+            '*' => [
+                'enabled' => true, // All collection endpoints enabled
+                'allowed_filters' => ['slug'], // Enabled for all collections
+            ],
+        ],
+        'navs' => true,
+        'taxonomies' => true,
+        'assets' => true,
         'globals' => false,
         'forms' => false,
         'users' => false,
