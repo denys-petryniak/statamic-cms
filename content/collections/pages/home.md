@@ -1,8 +1,12 @@
 ---
-title: Home
 id: home
-template: home
 blueprint: pages
+title: Home
+template: home
+updated_by: f9d56df6-faba-4a18-8d24-5b3a833d8892
+updated_at: 1691681933
+hero_article:
+  - 53eb5692-03ba-478b-839e-24262b884acc
 ---
 ## Welcome to your brand new Statamic site!
 

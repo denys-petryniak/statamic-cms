@@ -27,9 +27,9 @@ return [
         'navs' => true,
         'taxonomies' => true,
         'assets' => true,
-        'globals' => false,
-        'forms' => false,
-        'users' => false,
+        'globals' => true,
+        'forms' => true,
+        'users' => true,
     ],
 
     'route' => env('STATAMIC_API_ROUTE', 'api'),
